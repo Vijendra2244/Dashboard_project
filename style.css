@@ -1,0 +1,53 @@
+/* Added css home_Page  by Vijendra */
+.Home_Container {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  background-image: url(/handShake_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image {
+  text-align: center;
+}
+.image > img {
+  width: 4%;
+  margin-top: 5rem;
+}
+.Heading_Main {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+}
+.Property_web {
+  display: grid;
+  width: 40%;
+
+  gap: 1.3rem;
+  grid-template-columns: repeat(7, 1fr);
+  margin: auto;
+}
+.Property_web > div {
+  width: 90%;
+  background-color: aliceblue;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  padding: 0.3rem;
+}
+.Property_web > div:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+}
+
+.Property_web > div > img {
+  width: 85%;
+}
+.welcome {
+  margin-top: 2.5rem;
+}
+/* Added css home_Page by Vijendra  */
