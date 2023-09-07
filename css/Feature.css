@@ -1,0 +1,28 @@
+#Feature_Container {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 3rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+#Feature_Container > div {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 80%;
+  border-radius: 0.6rem;
+  margin: auto;
+}
+#Feature_Container > div > img {
+  width: 50%;
+  margin: auto;
+  margin-left: 10%;
+  padding: 1rem;
+}
+.heading_feature {
+  text-align: center;
+  margin-top: 0.6rem;
+}
+#Feature_Container > div:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in;
+}

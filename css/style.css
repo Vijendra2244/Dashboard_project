@@ -10,11 +10,14 @@
   background-size: cover;
 }
 
-.image {
+.imageWidth {
+  width: 10%;
+
   text-align: center;
+  margin: auto;
 }
-.image > img {
-  width: 4%;
+.imageWidth > img {
+  width: 100%;
   margin-top: 5rem;
 }
 .Heading_Main {
