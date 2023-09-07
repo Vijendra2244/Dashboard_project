@@ -1,0 +1,30 @@
+/* <!-- Added a dashboard - 1 cs by gourav --> */
+.heading
+{
+  background-color: white;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.line{
+  width:2%;
+  
+  margin:auto;
+  margin-bottom: 0.5rem;
+  border: 5px solid blueviolet;
+
+}
+.image {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  
+}
+.image > img{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 2rem;
+  width: 45%;
+  border-radius: 1rem;
+}
+/* <!-- Added a dashboard - 1 css by gourav --> */
