@@ -1,0 +1,25 @@
+.cards{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 2rem;
+}
+.card{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 95%;
+  margin: auto;
+}
+
+.card>img{
+  
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 85%;
+}
+.heading_dash{
+  margin-left: 5%;
+}
+.heading_dash:hover{
+  color: rgb(238, 91, 91);
+  cursor: pointer;
+}
