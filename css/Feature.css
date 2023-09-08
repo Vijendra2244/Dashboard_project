@@ -4,7 +4,7 @@
   grid-template-columns: repeat(6, 1fr);
   row-gap: 3rem;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 #Feature_Container > div {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -25,4 +25,23 @@
 #Feature_Container > div:hover {
   transform: scale(1.3);
   transition: all 0.5s ease-in;
+}
+
+.head_4 {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.para_core {
+  font-size: 1.5rem;
+
+  text-align: center;
+  font-weight: 800;
+}
+.divider_core {
+  border: 2px solid #0000ee;
+  width: 4%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
