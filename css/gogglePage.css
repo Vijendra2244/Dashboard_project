@@ -1,0 +1,53 @@
+.goggle_container {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.goggle_child {
+  /* border: 1px solid green; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.goggle_child > .img_google > img {
+  margin-top: 1rem;
+  width: 80%;
+}
+.A {
+  background-color: rgb(52, 186, 52);
+  display: inline-block;
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0;
+}
+.heading_Speed {
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+}
+.paraG {
+  margin-top: 0;
+  color: gray;
+}
+.paraG > span {
+  color: black;
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+.goggle_container > div:nth-child(4) {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ padding: 0 1rem;
+  border-radius: 0.6rem;
+}
+.rocketImage > img {
+  width: 90%;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+}
+.rocket_para {
+  opacity: 0.5;
+}
