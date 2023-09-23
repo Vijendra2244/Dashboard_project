@@ -1,0 +1,27 @@
+.Sec{
+  margin-top: 5rem;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.headsec{
+  margin-top: 2rem;
+}
+
+.head{
+   margin-top: 3rem;
+   color: aliceblue;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.logo>img{
+  width: 50px;
+  height: auto;
+}
+
