@@ -1,0 +1,21 @@
+.high_Container {
+  width: 30%;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+.High {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.High_para {
+    white-space: pre;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.divider_High {
+  border: 2px solid #0000ee;
+  width: 15%;
+  margin: auto;
+}
