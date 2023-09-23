@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  overflow: hidden;
 }
 .navbar .LogoImg {
   margin-left: 1rem;
@@ -25,7 +26,7 @@
 .navUl > ul > li {
   list-style: none;
   font-weight: 900;
-  color: black;
+  color: white;
   font-family: "Roboto", sans-serif;
 }
 .navUl > ul > li:hover {
@@ -52,7 +53,7 @@
   background-color: rgb(3, 3, 40);
 }
 .icon {
-  margin-right:2rem ;
+  margin-right: 2rem;
   line-height: 60px;
   display: none;
 }
