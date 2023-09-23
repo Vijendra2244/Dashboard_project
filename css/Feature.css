@@ -5,6 +5,7 @@
   row-gap: 3rem;
   margin: auto;
   margin-top: 3rem;
+  overflow: hidden;
 }
 #Feature_Container > div {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

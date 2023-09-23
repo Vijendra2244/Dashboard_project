@@ -2,6 +2,10 @@
   /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+
 }
 .goggle_child {
   /* border: 1px solid green; */
@@ -9,6 +13,7 @@
   margin: auto;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 .goggle_child > .img_google > img {
   margin-top: 1rem;
@@ -40,7 +45,7 @@
 }
 .goggle_container > div:nth-child(4) {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
- padding: 0 1rem;
+  padding: 0 1rem;
   border-radius: 0.6rem;
 }
 .rocketImage > img {
