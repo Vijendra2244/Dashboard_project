@@ -10,11 +10,11 @@
   background-image: url("https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YnVzaW5lc3MlMjBtZWV0aW5nJTIwaW1tYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .imageWidth {
   width: 10%;
-
   text-align: center;
   margin: auto;
 }
@@ -30,7 +30,6 @@
 .Property_web {
   display: grid;
   width: 40%;
-
   gap: 1.3rem;
   grid-template-columns: repeat(7, 1fr);
   margin: auto;
@@ -56,3 +55,77 @@
   margin-top: 2.5rem;
 }
 /* Added css home_Page by Vijendra  */
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+  .Home_Container {
+    width: 100%;
+  }
+  .imageWidth {
+    width: 15%;
+  }
+  .Heading_Main {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+  .Property_web {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 591px) and (max-width: 780px) {
+  .Home_Container {
+    width: 100%;
+  }
+  .imageWidth {
+    width: 15%;
+  }
+  .Heading_Main {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .Property_web {
+    width: 70%;
+  }
+  .Property_web > div > img {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .Home_Container {
+    width: 100%;
+  }
+  .imageWidth {
+    width: 25%;
+  }
+  .Heading_Main {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .Property_web {
+    width: 90%;
+  }
+  .Property_web > div > img {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .Home_Container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .imageWidth {
+    width: 20%;
+  }
+  .Heading_Main {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .Property_web {
+    width: 80%;
+  }
+  .Property_web > div > img {
+    width: 55%;
+  }
+}

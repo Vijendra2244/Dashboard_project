@@ -8,7 +8,7 @@
   margin-bottom: 0;
 }
 .High_para {
-    white-space: pre;
+  white-space: pre;
   text-align: center;
   font-size: 1.1rem;
   font-weight: 900;
@@ -17,4 +17,32 @@
   border: 2px solid #0000ee;
   width: 15%;
   margin: auto;
+}
+@media screen and (max-width: 1225px) {
+  .high_Container {
+    width: 100%;
+  }
+  .divider_High {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .high_Container {
+    width: 100%;
+  }
+  .divider_High {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .high_Container {
+    width: 100%;
+  }
+  .High_para {
+    font-size: 0.9rem;
+  }
+  .divider_High {
+    width: 10%;
+  }
 }

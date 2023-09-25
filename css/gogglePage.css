@@ -40,7 +40,7 @@
 }
 .goggle_container > div:nth-child(4) {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
- padding: 0 1rem;
+  padding: 0 1rem;
   border-radius: 0.6rem;
 }
 .rocketImage > img {
@@ -50,4 +50,21 @@
 }
 .rocket_para {
   opacity: 0.5;
+}
+@media screen and (max-width: 1024px) {
+  .goggle_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goggle_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .goggle_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
