@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="/css/highSpeed.css" />
     <link rel="stylesheet" href="/css/gogglePage.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/image.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <title>Dashboard-Project</title>
   </head>
   <body>
@@ -98,7 +103,7 @@
     <div class="cards">
       <div class="card">
         <img class="image_9" src="/images/dashboard1.jpg" alt="LOL" />
-        <h2 class="heading_dash">Dashboard2</h2>
+        <h2 class="heading_dash">Dashboard1</h2>
       </div>
       <div class="card">
         <img class="image_9" src="/images/dashboard2.jpg" alt="LOL" />
@@ -219,6 +224,36 @@
       </div>
     </div>
 
+    <!-- slider Html by vijendra  -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/images/slider1.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="/images/slider2.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="/images/slider3.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="/images/slider4.jpg" alt="" /></div>
+        <div class="swiper-slide">
+          <img src="/images/slider 5.jpg" alt="" />
+        </div>
+        <div class="swiper-slide"><img src="/images/slider6.jpg" alt="" /></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        rewind: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- slider Html by vijendra  -->
     <!-- Added a html for google page by Vijendra -->
 
   </body>
